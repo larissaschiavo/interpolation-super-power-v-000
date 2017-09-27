@@ -5,5 +5,5 @@ def display_rainbow(colors)
     capletter = color.split.first.upcase
     ans << "#{capletter}: #{color}"
   }
-  return ans.join
+  puts ans.join
 end
