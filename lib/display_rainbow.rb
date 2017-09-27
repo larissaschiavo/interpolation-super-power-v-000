@@ -5,9 +5,9 @@ def display_rainbow(colors)
     capletter = color.upcase.split
     c = capletter[0][0]
     ans << "#{c}: #{color} "
-    if idx != colors.length -1
-      then ans << ","
-    end 
+    if idx != (colors.length -1)
+      ans << ","
+    end
   }
   puts ans.join
 end
