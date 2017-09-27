@@ -8,5 +8,6 @@ def display_rainbow(colors)
   }
   a = ans.join
   a = a[0...-2]
-  a.concat("\n")
+  a = a.concat("\n")
+  print a 
 end
