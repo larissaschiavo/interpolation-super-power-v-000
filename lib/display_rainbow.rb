@@ -3,7 +3,8 @@ def display_rainbow(colors)
   ans = []
   colors.each {|color|
     capletter = color.upcase.split
-    ans << "[#{capletter[0]}: #{color}]"
+    c = capletter[0]
+    ans << "[#{c}: #{color}]"
   }
   puts ans.join
 end
