@@ -6,5 +6,5 @@ def display_rainbow(colors)
     c = capletter[0][0]
     ans << "#{c}: #{color}"
   }
-  puts ans.join(", ") 
+  puts ans.join 
 end
