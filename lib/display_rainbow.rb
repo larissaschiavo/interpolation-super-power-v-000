@@ -7,6 +7,6 @@ def display_rainbow(colors)
     ans << "#{c}: #{color}, "
   }
   a = ans.join
-  a = a[0...-2] + "#{\n}"
+  a = a[0...-2] + "\n"
   print a
 end
